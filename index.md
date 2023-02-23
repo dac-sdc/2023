@@ -6,7 +6,7 @@ title:
 
 #  {{ site.class_name}}
 
-The DAC System Design Contest focuses on low-power object detection on an embedded FPGA system. Contestants will receive a training dataset provided by DJI, and a hidden dataset will be used to evaluate the performance of the designs in terms of accuracy and power. Contestants will compete to create the best performing design on a Ultra 96 v2 FPGA board. Grand cash awards will be given to the top three teams. The award ceremony will be held at the 2022 IEEE/ACM Design Automation Conference.
+The DAC System Design Contest focuses on low-power object detection on an embedded FPGA system. Contestants will receive a training dataset provided by DJI, and a hidden dataset will be used to evaluate the performance of the designs in terms of accuracy and power. Contestants will compete to create the best performing design on a Ultra 96 v2 FPGA board. Grand cash awards will be given to the top three teams. The award ceremony will be held at the 2023 IEEE/ACM Design Automation Conference.
 
 
 <p align="middle">

@@ -2,7 +2,7 @@ build:
 	bundle exec jekyll build
 
 check_links: build
-	bundle exec htmlproofer --ignore_missing_alt --swap_urls "^\/dac_sdc_2022:" --ignore-status-codes "0" --enforce_https false ./_site
+	bundle exec htmlproofer --ignore_missing_alt --swap_urls "^\/2023:" --ignore-status-codes "0" --enforce_https false ./_site
 
 serve:
 	bundle exec jekyll serve
