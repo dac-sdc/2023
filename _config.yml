@@ -14,13 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "DAC SDC"
-class_name: DAC System Design Contest 2022
+class_name: DAC System Design Contest 2023
 class_number: DAC SDC
 email: jgoeders@byu.edu
-description: >-
-  Class website for BYU's ECEn 625: Compilation Strategies for High-Performance Systems.
-baseurl: "/dac_sdc_2022"
-url: "https://byuccl.github.io"
+baseurl: "/2023"
+url: "dac-sdc.github.io"
 
 permalink: pretty
 
