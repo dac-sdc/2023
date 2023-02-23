@@ -8,7 +8,8 @@ icon: fa fa-calendar
 order: 1
 ---
 
-
+### 2023 Dates TBD
+<!-- 
 * Contest announcement: January 2021
 * Registration deadline: <del>March 18, 2022</del> April 15, 2022.
 * [Preliminary submissions]({% link _pages/submission.md %}): 
@@ -18,4 +19,4 @@ order: 1
 * **Final submission:** June 17, 2022 **(No extensions)**
 * Finalist teams announced: June 21, 2022
 * Award presentation: DAC 2022, July 10-14
-
+ -->
