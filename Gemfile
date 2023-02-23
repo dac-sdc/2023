@@ -33,3 +33,4 @@ gem "jekyll-sitemap"
 gem 'rake'
 gem 'html-proofer'
 
+gem "jekyll-sass-converter", "~> 2.0"
