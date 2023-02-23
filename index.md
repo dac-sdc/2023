@@ -11,7 +11,7 @@ The DAC System Design Contest focuses on low-power object detection on an embedd
 
 <p align="middle">
     <img src="{% link media/object_detection_example.png %}" width="400" class="center">
-    <img src="{% link media/ultra96.png %}" width="400" class="center">
+    <img src="{% link media/kria.png %}" width="300" class="center">
 </p>
 
 
