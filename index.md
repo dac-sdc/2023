@@ -10,8 +10,9 @@ The DAC System Design Contest focuses on low-power object detection on an embedd
 
 
 <p align="middle">
-    <img src="{% link media/object_detection_example.png %}" width="400" class="center">
+    <img src="{% link media/object_detection_example.jfif %}" width="400" class="center">
     <img src="{% link media/kria.png %}" width="300" class="center">
+    <img src="{% link media/jetson.jpg %}" width="300" class="center">
 </p>
 
 
@@ -28,8 +29,10 @@ The DAC System Design Contest focuses on low-power object detection on an embedd
 ## Organizing Committee
   * Jeff Goeders - Brigham Young University
   * Callie Hao - Georgia Institute of Technology
+  * Meng Li - Peking University
   * Cheng Zhuo - Zhejiang University
 
 ## Sponsors
 
 <img src="{% link media/AMD_Xilinx_logo.svg.png %}" width="400">
+<img src="{% link media/baidu.png %}" width="400">
