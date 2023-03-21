@@ -29,7 +29,7 @@ The base design framework is provided here: <https://github.com/dac-sdc/fpga_sta
 
 ## Training Dataset
 
-Link to download training dataset: TBD
+Link to download training dataset: <https://byu.box.com/s/d3k7v9l41oja4mz37p46r8zm2ytebhyc>
 
 ## Other Info
 
