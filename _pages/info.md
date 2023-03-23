@@ -31,7 +31,17 @@ The base design framework is provided here: <https://github.com/jgoeders/dac_sdc
 
 ### Training Dataset
 
-Link to download training dataset: <https://byu.box.com/s/hdgztcu12j7fij397jmd68h4og6ln1jw>
+Link to download training dataset: <https://drive.google.com/file/d/1ceQ5y_rCReSZ26HzzCf2muDNbovjyl5k/view?usp=share_link>
+
+In the link, after unzipping the file, you will see the following folders and files:
+
+  * JPEGImages: original images
+  * Annotations: annotations in VOC format
+  * Label: annotations in Jason format
+
+This dataset provides 10 categories of 10000 images in total, of which categories 1 to 7 use the rectangular detection frame labeling method, and categories 8 to 10 use the segmented connected domain labeling method.
+
+<img src="{% link media/labels.png %}" width="400" class="center">
 
 ### Frequently Asked Questions
   * [FAQs]({% link _pages/faq.md %})
