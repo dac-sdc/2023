@@ -23,9 +23,9 @@ The base design framework is provided here: <https://github.com/dac-sdc/gpu_star
 
 ### FPGA Platform
 
-You should use the Ubuntu 22.04 PYNQ PYNQ image, wavailable at <http://www.pynq.io/board.html>.
+You should use the Ubuntu 22.04 PYNQ PYNQ image, available at <http://www.pynq.io/board.html>.
 
-The base design framework is provided here: <https://github.com/dac-sdc/fpga_starter_2023>. **This repository is a work in progress and should be available by late March**
+The base design framework, with additional setup instructions, is provided here: <https://github.com/dac-sdc/fpga_starter_2023>. 
 
 ## Training Dataset
 
