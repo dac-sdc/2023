@@ -15,7 +15,7 @@ order: 2
 
 ## Target Platform 
 
-The 2022 contest will use the [Kria KV260 Vision AI Starter Kit](https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit.html) and the [Jetson Nano Developer Kit](https://developer.nvidia.com/embedded/jetson-nano-developer-kit).
+The 2023 contest will use the [Kria KV260 Vision AI Starter Kit](https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit.html) and the [Jetson Nano Developer Kit](https://developer.nvidia.com/embedded/jetson-nano-developer-kit).
 
 ### GPU Platform
 
