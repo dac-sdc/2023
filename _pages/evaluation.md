@@ -25,9 +25,11 @@ The minimum accuracy should be **TBD**, otherwise a penalty is applied.
 The design should achieve at least 5 FPS (**subject to change**), otherwise a penatly is applied.
 
 ### SCORING FUNCTION
-The score for a team is calculated as follows:
+The score for a team is calculated as follows **(Subject to change)**:
 
 team score = F1-score^2 * fps
 
-**(Subject to change)**
 
+### Scoring Script
+
+A [score.py](https://github.com/dac-sdc/fpga_starter_2023/blob/main/scripts/score.py) script is provided that will provide f1-score and fps.
