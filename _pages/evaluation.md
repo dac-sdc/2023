@@ -10,18 +10,24 @@ order: 4
 The design is evaluated based on accuracy and throughput.
 
 ### ACCURACY
-Accuracy is measured using IoU (Intersection over Union). A good example of IoU can be found at https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/.
+
+Accuracy is measured using the [F1-score](https://en.wikipedia.org/wiki/F-score), where:
+
+F1-score = (2 * precision * recall) / (precision + recall)
+
+precision = global_true_positives / (global_true_positives + global_false_positives)
+
+recall = global_true_positives / (global_true_positives + global_false_negatives)
 
 The minimum accuracy should be **TBD**, otherwise a penalty is applied.
 
-### THROUGHPUT.
+### THROUGHPUT
 The design should achieve at least 5 FPS (**subject to change**), otherwise a penatly is applied.
 
 ### SCORING FUNCTION
 The score for a team is calculated as follows:
 
-**Scoring function TBD, based on function of accuracy and throughput**
+team score = F1-score^2 * fps
 
-<!-- Score = 10^2 / log2(Energy) × Max(ReLU([1 - 5 × ReLU(0.7 - IoU)]), 0.1) × ReLU([1 - ReLU(1 - FPS / 30)])
+**(Subject to change)**
 
-ReLU is a non-linear function that helps apply the penalty: ReLU(x) = (x > 0) ? x : 0. -->
