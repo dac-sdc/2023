@@ -8,10 +8,12 @@ icon: fas fa-upload
 order: 5
 ---
 
-## Preliminary Submissions
+## FPGA Contest
+
+### Preliminary Submissions
 You can optionally submit your design for the preliminary submissions (see [schedule]({% link _pages/schedule.md %})). This allows you to check that your solutions is working on our evaluation platform. 
 
-### Requirements:
+#### Requirements:
 
 1. Submit the following files:
   * Your Jupyter notebook (*.ipynb)
@@ -26,11 +28,15 @@ You can optionally submit your design for the preliminary submissions (see [sche
 1. If you are using the v1 board, be sure to fix the power rail names before submission. 
 1. Place all of your files in a single zip archive and submit it.
 
-## Final Submission
+### Final Submission
 For the final submission, follow the instructions above. In addition:
 
 1. Submit all source files for your design, in a zip archive.
 1. Your design must be available, open-source, and in working condition in order to be considered for an award. You are permitted to use publicly available closed source tools and IP (Xilinx's DPU); however, all of your work (any modifications and configurations to commercial, closed-source tools), must be accessible.
 
-## Submission Links
+### Submission Links
+Prelim #1: <https://forms.gle/PbgUfGFmnVgwnkT66>
+
+## GPU Contest
+
 TBD
