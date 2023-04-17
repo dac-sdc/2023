@@ -31,6 +31,21 @@ The base design framework, with additional setup instructions, is provided here:
 
 Link to download training dataset: <https://drive.google.com/file/d/1ceQ5y_rCReSZ26HzzCf2muDNbovjyl5k/view?usp=share_link>
 
+The dataset contains:
+ * 12000 training images in the *JPEGImages* directory (a few extra images with *_1* suffix are included such as 00009_1.jpg, which are simply mirror images of the base image and can be ignored).
+ * Labelled object types and locations in the *label* directory.  For example, *JPEGImages/00001.jpg* will have an associated *label/00001.json* file describe object types and locations in the image.
+ * Object types:
+
+| Type | Name | Example | Identifying Data |
+|------|------|---------|------------------|
+|1|Motor Vehicle | <img src="{% link media/dataset/motor_vehicle.png %}"> | Bounding Box |
+|2|Non-motorized Vehicle|<img src="{% link media/dataset/nonmotor_vehicle.png %}"> | Bounding Box |
+|3|Pedestrian|<img src="{% link media/dataset/pedestrian.png %}"> | Bounding Box |
+|4|Red Traffic Light|<img src="{% link media/dataset/red_light.png %}"> | Bounding Box |
+|5|Yellow Traffic Light|<img src="{% link media/dataset/yellow_light.png %}"> | Bounding Box |
+|6|Green Traffic Light|<img src="{% link media/dataset/green_light.png %}"> | Bounding Box |
+|7|Off Traffic Light|<img src="{% link media/dataset/off_light.png %}"> | Bounding Box |
+
 ## Other Info
 
 ### Frequently Asked Questions
