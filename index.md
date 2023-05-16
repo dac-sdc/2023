@@ -23,7 +23,9 @@ The DAC System Design Contest focuses on object detection and classification on 
   * [Participant Info]({% link _pages/info.md %})
   * [Evaluation Metrics]({% link _pages/evaluation.md %})
   * [Submission Instructions]({% link _pages/submission.md %})
-  * [Contest Results]({% link _pages/results.md %})
+  * Contest Results: 
+    * [FPGA]({% link _pages/results_fpga.md %}) 
+    * [GPU]({% link _pages/results_gpu.md %})
 
 
 ## Organizing Committee
