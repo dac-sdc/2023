@@ -37,6 +37,7 @@ For the final submission, follow the instructions above. In addition:
 ### Submission Links
 * Prelim #1: <https://forms.gle/PbgUfGFmnVgwnkT66>
 * Prelim #2: <https://forms.gle/3xZauRg5GpiGGgz96>
+* Prelim #3: <https://forms.gle/ReQFPAqccoNvUxAE6>
 
 ## GPU Contest
 
