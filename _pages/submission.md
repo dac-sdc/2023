@@ -65,6 +65,6 @@ For the final submission, follow the instructions above. In addition:
 1. Your design must be available, open-source, and in working condition in order to be considered for an award. You are permitted to use publicly available closed source tools and GPU; however, all of your work (any modifications and configurations to commercial, closed-source tools), must be accessible.
 
 ### Submission Links
-Prelim #1: <https://forms.gle/dDonH7h3AsryshFu9>
-Prelim #2: <https://forms.gle/oBn44ohHxyKPLTFX6>
-Prelim #3: <https://forms.gle/aKfhp83wHsRfkCmX9>
+* Prelim #1: <https://forms.gle/dDonH7h3AsryshFu9>
+* Prelim #2: <https://forms.gle/oBn44ohHxyKPLTFX6>
+* Prelim #3: <https://forms.gle/aKfhp83wHsRfkCmX9>
