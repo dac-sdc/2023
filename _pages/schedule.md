@@ -15,7 +15,7 @@ order: 1
     * Submission 1: <del>Apr 14, 2023</del> Apr 21, 2023 
     * Submission 2: <del>May 5, 2023</del> May 12, 2023
     * Submission 3: <del>May 26, 2023</del> Jun 2, 2023
-* **Final submission:** <del>June 14, 2023</del> June 15, 2023 **(No further extensions)**
+* **Final submission:** <del>June 14, 2023</del> June 15, 2023 (Anywhere on Earth) **(No further extensions)**
 * Finalist teams announced: June 19, 2023
 * Award presentation: DAC 2023, July 9-13
 
