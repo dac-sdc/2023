@@ -7,12 +7,28 @@ icon: fas fa-medal
 order: 6
 ---
 ## Final Results
-TBD
+
+**Note:** Top 3 teams are sorted alphabetically and ranking/scores are not yet released.  The final ranking will be released at the DAC 2023 conference.
+
+|Rank|Team Name | Precision | Recall | F1-Score | FPS | Total Score |
+|----|----------|----------:|-------:|---------:|----:|------------:|
+|*|FSBIN|
+|*|InvolutionNet|
+|*|SEUer|
+|4|Puff|0.666|0.405|0.504|232.96|59.176
+|5|XDD|0.661|0.421|0.514|185.57|49.027
+|6|PCCC|0.661|0.421|0.514|138.60|36.618
+|7|approxitrack|0.539|0.245|0.337|164.71|18.706
+|8|Saecheonnyeon|0.740|0.432|0.545|43.09|12.799
+|9|bitsplicer|0.609|0.657|0.632|22.67|9.055
+|10|ADARLAB|0.804|0.601|0.688|7.25|3.432
+|11|fpgaconvnet|0.611|0.407|0.488|10.86|2.586
+|12|husky|0.743|0.465|0.572|4.97|1.626
 
 ## Prelim \#3
 
 |Rank|Team Name | Precision | Recall | F1-Score | FPS | Total Score |
-|----|----------|-----------|--------|----------|-----|-------------|
+|----|----------|----------:|-------:|---------:|----:|------------:|
 |1|InvolutionNet|0.716|0.563|0.63|51.36|20.384784
 |2|ADARLAB|0.806|0.591|0.682|7.61|3.539594
 |3|bitsplicer|0.653|0.672|0.662|7.82|3.427068
@@ -33,7 +49,7 @@ Did not run successfully:
 **Note**: These results were accidentally collected on the full set of images (training + testing sets), so accuracy is higher than it should be.
 
 |Rank|Team Name | Precision | Recall | F1-Score | FPS | Total Score |
-|----|----------|-----------|--------|----------|-----|-------------|
+|----|----------|----------:|-------:|---------:|----:|------------:|
 |1|InvolutionNet|0.803|0.709|0.753|4.93|2.795354
 |2|FSBIN|0.015|0.003|0.005|2.3|0.000058
 
