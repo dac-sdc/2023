@@ -29,6 +29,3 @@ order: 6
 |8|xs1390|0.024|0.004|0.007|1.38|0.000007
 
 ## Final Results
-
-|Rank|Team Name | Precision | Recall | F1-Score | FPS | Total Score |
-|----|----------|-----------:|--------:|----------:|-----:|-------------:|
