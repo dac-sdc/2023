@@ -29,3 +29,15 @@ order: 6
 |8|xs1390|0.024|0.004|0.007|1.38|0.000007
 
 ## Final Results
+
+|Rank|Team Name | Precision | Recall | F1-Score | FPS | Total Score |
+|----|----------|----------:|-------:|---------:|----:|------------:|
+|*|PCCC|
+|*|AI2023|
+|*|CapyNet|
+
+Did not run successfully:
+* **Lucky Stars Team**: `OSError: libmyplugins.so: cannot open shared object file: No such file or directory` on line `cfuns = ctypes.cdll.LoadLibrary("./yolov5")`
+* **^BFGPU**: `ValueError: axes don't match array` on line `object_locations = callback(rgb_imgs)`
+* **fpgaconvnet**: `ModuleNotFoundError: No module named 'pynq'` on line `import pynq`
+* The submission of Sapiens_Reconfigureable is not for GPU track
