@@ -8,13 +8,11 @@ order: 6
 ---
 ## Final Results
 
-**Note:** Top 3 teams are sorted alphabetically and ranking/scores are not yet released.  The final ranking will be released at the DAC 2023 conference.
-
 |Rank|Team Name | Precision | Recall | F1-Score | FPS | Total Score |
 |----|----------|----------:|-------:|---------:|----:|------------:|
-|*|FSBIN|
-|*|InvolutionNet|
-|*|SEUer|
+|1|SEUer|0.599|0.434|0.504|480.67|122.098
+|2|InvolutionNet|0.788|0.483|0.599|236.30|84.785
+|3|FSBIN|0.661|0.421|0.514|232.59|61.449
 |4|Puff|0.666|0.405|0.504|232.96|59.176
 |5|XDD|0.661|0.421|0.514|185.57|49.027
 |6|PCCC|0.661|0.421|0.514|138.60|36.618
