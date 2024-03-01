@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>
+    
+    Results (FPGA) • DAC SDC
+    
+</title>
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<!-- Custom styles for this template -->
+<link rel="stylesheet" href=/2023/css/main.css>
+
+<!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet"> -->
+<link rel="stylesheet" href="https://use.typekit.net/jcn6ybb.css">
+
+<!-- <link rel="icon" type="image/png" sizes="96x96" href=/2023/icon/favicon-96x96.png>
+<link rel="icon" type="image/png" sizes="32x32" href=/2023/icon/favicon-32x32.png>
+<link rel="icon" type="image/png" sizes="16x16" href=/2023/icon/favicon-16x16.png> -->
+
+<script src="https://kit.fontawesome.com/d794f0229e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="d-flex" id="wrapper">
+    <div class="border-right sidebar-color" id="sidebar-wrapper">
+    <div class="sidebar-sticky">
+        <div class="sidebar-heading-big">
+            <a href="/2023/">
+                DAC SDC</a>
+
+        </div>
+
+        <div class="search-bar">
+            <form method="get" action="https://www.google.com/search" target="_blank">
+                <input class="search-box" type="hidden" name="sitesearch" value="dac-sdc.github.io/2023" />
+                <input class="search-box" type="text" name="q" maxlength="255" placeholder="Search" />
+            </form>
+        </div>
+
+        <div class="list-group list-group-flush sidebar-color">
+
+            
+
+            
+            
+            <a href="/2023/schedule/"
+                class="sidebar-color list-item-tall list-group-item list-group-item-action sidebar-item ">
+                
+                <i class="fa fa-calendar"></i>
+                
+                Dates
+            </a>
+            
+            
+            
+            <a href="/2023/info/"
+                class="sidebar-color list-item-tall list-group-item list-group-item-action sidebar-item ">
+                
+                <i class="fa fa-calendar"></i>
+                
+                Info
+            </a>
+            
+            
+            
+            <a href="/2023/faq/"
+                class="sidebar-color list-item-tall list-group-item list-group-item-action sidebar-item ">
+                
+                <i class="fas fa-question"></i>
+                
+                FAQ
+            </a>
+            
+            
+            
+            <a href="/2023/evaluation/"
+                class="sidebar-color list-item-tall list-group-item list-group-item-action sidebar-item ">
+                
+                <i class="fas fa-sort-numeric-down"></i>
+                
+                Evaluation
+            </a>
+            
+            
+            
+            <a href="/2023/submission/"
+                class="sidebar-color list-item-tall list-group-item list-group-item-action sidebar-item ">
+                
+                <i class="fas fa-upload"></i>
+                
+                Submission
+            </a>
+            
+            
+            
+            <a href="/2023/results-fpga/"
+                class="sidebar-color list-item-tall list-group-item list-group-item-action sidebar-item ">
+                
+                <i class="fas fa-medal"></i>
+                
+                Results (FPGA)
+            </a>
+            
+            
+            
+            <a href="/2023/results-gpu/"
+                class="sidebar-color list-item-tall list-group-item list-group-item-action sidebar-item ">
+                
+                <i class="fas fa-medal"></i>
+                
+                Results (GPU)
+            </a>
+            
+            
+            <a href="https://join.slack.com/t/dac-sdc/shared_invite/zt-1rrtmgjad-NCYE2leBfOw8xTOp52KR7w"
+                class="sidebar-color list-item-tall list-group-item list-group-item-action sidebar-item ">
+                <i class="fa fa-comments"></i>
+                Slack
+            </a>
+
+
+
+
+            <!-- <a href="https://slack.com/app_redirect?team=T01J887F8MU&channel=C01JF1N6TH8"
+                class="list-item-normal list-group-item list-group-item-action sidebar-item" target="_blank"><i
+                    class="fa fa-question-circle"></i>
+                Slack</a> -->
+
+        </div>
+
+    </div>
+</div>
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar sticky-top navbar-expand-lg border-bottom">
+        <button class="btn btn-brand" id="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <a href="https://dac.com/"><img href="dac.com" src="/2023/media/DAC_60.jpg" height="75"
+            class="title_img"></a>
+        <a href="/2023/" class="navbar-brand mb-0 h1 page-title-bar text-center mx-auto"
+          id="page-title-bar"> DAC System Design Contest 2023</a>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link btn btn-brand suggest-edits" target="_blank" rel="noopener noreferrer"
+              href="https://github.com/byuccl/dac_sdc_2022/issues/new?labels=website&title=Updates to Results (FPGA) page"><i
+                class="fab fa-github"></i> Suggest
+              Edits</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="container">
+        <article class="page">
+  <h1 class="page-title" id="page-title">
+    
+    <i class="fas fa-medal"></i>
+    
+    Results (FPGA)
+  </h1>
+
+  <div class="page-content">
+    
+
+    <h2 id="final-results">Final Results</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Team Name</th>
+      <th style="text-align: right">Precision</th>
+      <th style="text-align: right">Recall</th>
+      <th style="text-align: right">F1-Score</th>
+      <th style="text-align: right">FPS</th>
+      <th style="text-align: right">Total Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>SEUer</td>
+      <td style="text-align: right">0.599</td>
+      <td style="text-align: right">0.434</td>
+      <td style="text-align: right">0.504</td>
+      <td style="text-align: right">480.67</td>
+      <td style="text-align: right">122.098</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>InvolutionNet</td>
+      <td style="text-align: right">0.788</td>
+      <td style="text-align: right">0.483</td>
+      <td style="text-align: right">0.599</td>
+      <td style="text-align: right">236.30</td>
+      <td style="text-align: right">84.785</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>FSBIN</td>
+      <td style="text-align: right">0.661</td>
+      <td style="text-align: right">0.421</td>
+      <td style="text-align: right">0.514</td>
+      <td style="text-align: right">232.59</td>
+      <td style="text-align: right">61.449</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Puff</td>
+      <td style="text-align: right">0.666</td>
+      <td style="text-align: right">0.405</td>
+      <td style="text-align: right">0.504</td>
+      <td style="text-align: right">232.96</td>
+      <td style="text-align: right">59.176</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>XDD</td>
+      <td style="text-align: right">0.661</td>
+      <td style="text-align: right">0.421</td>
+      <td style="text-align: right">0.514</td>
+      <td style="text-align: right">185.57</td>
+      <td style="text-align: right">49.027</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>PCCC</td>
+      <td style="text-align: right">0.661</td>
+      <td style="text-align: right">0.421</td>
+      <td style="text-align: right">0.514</td>
+      <td style="text-align: right">138.60</td>
+      <td style="text-align: right">36.618</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>approxitrack</td>
+      <td style="text-align: right">0.539</td>
+      <td style="text-align: right">0.245</td>
+      <td style="text-align: right">0.337</td>
+      <td style="text-align: right">164.71</td>
+      <td style="text-align: right">18.706</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Saecheonnyeon</td>
+      <td style="text-align: right">0.740</td>
+      <td style="text-align: right">0.432</td>
+      <td style="text-align: right">0.545</td>
+      <td style="text-align: right">43.09</td>
+      <td style="text-align: right">12.799</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>bitsplicer</td>
+      <td style="text-align: right">0.609</td>
+      <td style="text-align: right">0.657</td>
+      <td style="text-align: right">0.632</td>
+      <td style="text-align: right">22.67</td>
+      <td style="text-align: right">9.055</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>ADARLAB</td>
+      <td style="text-align: right">0.804</td>
+      <td style="text-align: right">0.601</td>
+      <td style="text-align: right">0.688</td>
+      <td style="text-align: right">7.25</td>
+      <td style="text-align: right">3.432</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>fpgaconvnet</td>
+      <td style="text-align: right">0.611</td>
+      <td style="text-align: right">0.407</td>
+      <td style="text-align: right">0.488</td>
+      <td style="text-align: right">10.86</td>
+      <td style="text-align: right">2.586</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>husky</td>
+      <td style="text-align: right">0.743</td>
+      <td style="text-align: right">0.465</td>
+      <td style="text-align: right">0.572</td>
+      <td style="text-align: right">4.97</td>
+      <td style="text-align: right">1.626</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="prelim-3">Prelim #3</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Team Name</th>
+      <th style="text-align: right">Precision</th>
+      <th style="text-align: right">Recall</th>
+      <th style="text-align: right">F1-Score</th>
+      <th style="text-align: right">FPS</th>
+      <th style="text-align: right">Total Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>InvolutionNet</td>
+      <td style="text-align: right">0.716</td>
+      <td style="text-align: right">0.563</td>
+      <td style="text-align: right">0.63</td>
+      <td style="text-align: right">51.36</td>
+      <td style="text-align: right">20.384784</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>ADARLAB</td>
+      <td style="text-align: right">0.806</td>
+      <td style="text-align: right">0.591</td>
+      <td style="text-align: right">0.682</td>
+      <td style="text-align: right">7.61</td>
+      <td style="text-align: right">3.539594</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>bitsplicer</td>
+      <td style="text-align: right">0.653</td>
+      <td style="text-align: right">0.672</td>
+      <td style="text-align: right">0.662</td>
+      <td style="text-align: right">7.82</td>
+      <td style="text-align: right">3.427068</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Puff</td>
+      <td style="text-align: right">0.625</td>
+      <td style="text-align: right">0.471</td>
+      <td style="text-align: right">0.537</td>
+      <td style="text-align: right">2.29</td>
+      <td style="text-align: right">0.660365</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Log_gehts</td>
+      <td style="text-align: right">0.01</td>
+      <td style="text-align: right">0.013</td>
+      <td style="text-align: right">0.011</td>
+      <td style="text-align: right">3.39</td>
+      <td style="text-align: right">0.00041</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>saecheonnyeon</td>
+      <td style="text-align: right">0.004</td>
+      <td style="text-align: right">0.002</td>
+      <td style="text-align: right">0.002</td>
+      <td style="text-align: right">15.63</td>
+      <td style="text-align: right">0.000063</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>x2_team</td>
+      <td style="text-align: right">0.004</td>
+      <td style="text-align: right">0.002</td>
+      <td style="text-align: right">0.003</td>
+      <td style="text-align: right">3.49</td>
+      <td style="text-align: right">0.000031</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Did not run successfully:</p>
+<ul>
+  <li><strong>FSBIN</strong>: <code class="language-plaintext highlighter-rouge">ValueError: could not broadcast input array from shape (544,960,3) into shape (384,640,3)</code> on line: <code class="language-plaintext highlighter-rouge">image_input[0,...] = input</code></li>
+  <li><strong>HLSPoliTo</strong>: <code class="language-plaintext highlighter-rouge">IndexError: list index out of range</code> on line: <code class="language-plaintext highlighter-rouge">pred = non_max_suppression_custom(pred)[0])</code></li>
+  <li><strong>NewLab</strong>: Board crashes on first batch.  I reduced the batch size to 108, but now get an error <code class="language-plaintext highlighter-rouge">UnboundLocalError: local variable 'i' referenced before assignment</code> on line <code class="language-plaintext highlighter-rouge">last_name = [k[0].name for k in rgb_imgs[i : BATCH_SIZE + i]]</code></li>
+</ul>
+
+<h2 id="prelim-2">Prelim #2</h2>
+
+<p><strong>Note</strong>: These results were accidentally collected on the full set of images (training + testing sets), so accuracy is higher than it should be.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Team Name</th>
+      <th style="text-align: right">Precision</th>
+      <th style="text-align: right">Recall</th>
+      <th style="text-align: right">F1-Score</th>
+      <th style="text-align: right">FPS</th>
+      <th style="text-align: right">Total Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>InvolutionNet</td>
+      <td style="text-align: right">0.803</td>
+      <td style="text-align: right">0.709</td>
+      <td style="text-align: right">0.753</td>
+      <td style="text-align: right">4.93</td>
+      <td style="text-align: right">2.795354</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>FSBIN</td>
+      <td style="text-align: right">0.015</td>
+      <td style="text-align: right">0.003</td>
+      <td style="text-align: right">0.005</td>
+      <td style="text-align: right">2.3</td>
+      <td style="text-align: right">0.000058</td>
+    </tr>
+  </tbody>
+</table>
+
+
+  </div>
+</article>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+<script src=/2023/js/jquery.visible.min.js></script>
+
+<!-- Menu Toggle Script -->
+<script>
+    $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+
+    var prevVisible = $('#page-title').visible();
+
+    $(window).scroll(function () {
+        currentVisible = $('#page-title').visible()
+        if (prevVisible && !currentVisible) {
+            console.log("Do something!");
+            $("#page-title-bar").html($('#page-title').text());
+        }
+
+        if (!prevVisible && currentVisible) {
+            $("#page-title-bar").html("")
+        }
+
+        prevVisible = currentVisible;
+    });
+
+</script>
+
+</body>
+
+</html>
